@@ -1,0 +1,11 @@
+[project]
+name = "cs-grad-exam-notes"
+version = "0.1.0"
+description = "Lint and test tooling for the cs-grad-exam-notes repo"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest", "flake8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
